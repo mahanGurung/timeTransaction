@@ -2,6 +2,9 @@
 pragma solidity ^0.8.13;
 
 contract TransactionPool {
+
+    uint256 public transactionsFee = 0;
+
     struct Transaction {
         address sender;
         address recipient;
